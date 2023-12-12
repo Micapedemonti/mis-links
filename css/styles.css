@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    bottom: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.body-container{
+    width: 35%;
+}
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+.presentacion h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+.img-mica{
+    margin-top: 5%;
+    border-radius: 50%;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+}
+.descripcion p{
+    width: 400px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 11px;
+    font-weight: bold;
+}
+.container{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.linkedin{
+ padding: 10px;
+ background-color: #d5e6ff;
+ width: 100%;
+ text-align: center;
+ margin-bottom: 3%;
+ color: #0858ce;
+ text-decoration: none;
+ border-radius: 2px;
+ font-family: system-ui;
+font-size: 14px;
+}
+.trabajos{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #ffe6db;
+    margin-bottom: 3%;
+    color: #fbaf39;
+    text-decoration: none;
+    border-radius: 2px;
+    font-family: system-ui;
+    font-size: 14px;
+}
+.mail{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #ffe6db;
+    margin-bottom: 3%;
+    color: #fbaf39;
+    text-decoration: none;
+    border-radius: 2px;
+    font-family: system-ui;
+    font-size: 14px;
+}
+.portfolio{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #ffe6db;
+    margin-bottom: 3%;
+    color: #fbaf39;
+    text-decoration: none;
+    border-radius: 2px;
+    font-family: system-ui;
+    font-size: 14px;
+}
+.redes{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
